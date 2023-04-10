@@ -1,0 +1,175 @@
+#menu1{
+
+}
+ #contenedorGaleriaModal{
+ 	overflow: auto;
+ 	width: 78%;
+ 	float:left;
+ 	height:350px;
+ 	border-left: 1px solid #DDD;
+ 	padding:5px;
+ }
+#contenedorGaleriaModal img{
+ 	margin-left:5px; cursor:pointer;
+}
+#contenedorGaleriaModal img:hover{
+    border-color:#888;box-shadow: 2px 2px 2px #CCC;
+}
+
+ul#carpetasNavGaleria{
+	width:22%;
+ 	float:left;
+ 	list-style: none;
+ 	padding: 0;
+ 	margin:0;
+ 	border-left:1px solid #DDD;
+ 	height:350px;
+ 	overflow: auto;
+}
+ul::-webkit-scrollbar {
+    width: 5px;
+}
+ul::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+ul#carpetasNavGaleria .fa-folder{
+   color:#D1D43D;
+}
+ul#carpetasNavGaleria > li > ul{
+	display: none;
+	list-style: none;
+	margin:0;
+	padding:0 2px 0 15px;
+}
+ul#carpetasNavGaleria > li > ul li{
+    font-weight:normal;
+}	
+ul#carpetasNavGaleria > li > ul li:hover{
+    color:#1A3729;
+}	
+ul#carpetasNavGaleria > li{
+	border-bottom:1px solid #DDD;
+	cursor:default;
+	padding:5px;
+	text-transform: capitalize;
+}
+ul#carpetasNavGaleria > li:hover{
+	font-weight: bold;
+}
+li.folderactive{
+	color:#38644F;
+	background:#EEE;
+	font-weight:bold;
+}
+li.subfolderactive{
+	color:#6e73ab;
+}
+
+li.folderactive ul{
+	display: block !important;
+}
+#formSubidaGaleria{
+  padding-top:5px;
+}
+#formSubidaGaleria form{
+	margin-bottom:5px;
+}
+#formSubidaGaleria form input{
+	max-width:340px;
+	float:left;
+	margin-right:5px;
+	height: 33px;
+}
+#formSubidaGaleria form select{
+	max-width:200px;
+	float:left;
+	margin-right:5px;
+	height: 33px;
+}
+#formSubidaGaleria input[type=file]{
+	background:linear-gradient(#6890B9,#195899,#6890B9);
+	border-radius:5px;
+	display: block;
+	margin:5px auto 5px auto;
+    height:33px;
+    padding:5px;
+	float: none;
+	max-width: 400px;
+	color:#EFF0FF;
+}
+#formSubidaGaleria input[type=submit]{
+	float:right;
+}
+#descripciones_imagenes > div{
+	background:#EEE;
+	margin-top:7px;
+	border:1px solid #DDD;
+	padding-top:5px;
+}
+#descripciones_imagenes .detallesclosser{
+	float:right;
+}
+#descripciones_imagenes p.textarea{
+	clear:both;
+	padding:5px 0 0 0;
+}
+#descripciones_imagenes input[type=text]{
+	max-width:400px;
+
+}
+#contenedorGaleriaModal .img-thumbnail{
+   margin-bottom:3px;
+}
+#modalGaleria .modal-body{
+	padding-bottom: 0;
+}
+#textoTemporalGaleria{
+	color:#EEE;
+	font:bold 3em verdana,salem;
+	margin-top:80px;
+}
+/*formulario de creacio de carpetas*/
+form.upCarpeta{
+    margin-top:20px;
+    height:50px;
+}
+form.upCarpeta input{
+	float:left;
+}
+form.upCarpeta input[type=text]{
+	width: 300px !important;
+	max-width: none !important;
+}
+form.upCarpeta select{
+    width: 200px !important;
+    float:left;
+}
+form.upCarpeta label{
+    float:left;
+    background: #EEE;
+    margin-top:2px;
+    padding:5px;
+    font-weight:normal;
+}
+form.upCarpeta span{
+	color:#CCC;
+}
+#contenedorGaleriaModal div.docRow{
+	padding: 3px;
+	cursor:default;
+	border-bottom:1px solid #F1F1F1;
+	color:#777;
+}
+#contenedorGaleriaModal div.docRow:hover{
+	color:#333;
+}
+#contenedorGaleriaModal div.docRow:last-child{
+	border-bottom:none;
+}
+#contenedorGaleriaModal div.docRow span{
+	font-size: 15px;
+}

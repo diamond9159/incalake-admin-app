@@ -1,0 +1,134 @@
+#preciosManager{
+	padding:0;
+}
+#preciosManager select{
+	padding: 3px;
+}
+#preciosManager input{
+	padding:3px;
+	border-radius:3px;
+	border:1px solid #CCC;
+	width: 80px;
+}
+
+#preciosManager .tabOptions{
+	background:#337AB7;
+	padding: 3px;
+
+}
+#preciosManager .tituloNac input{
+	width: 50px;
+	color:#333;
+	text-align: center;
+	font-weight: normal;
+	margin:5px 0 0 0;
+}
+#preciosManager .btn_tab{
+   padding:8px 5px 0 5px !important;
+}
+#preciosManager .tabOptions label{
+	color:#EEE;
+	margin-top: 5px;
+	font:normal 1em sans-serif;
+}
+#preciosManager .nav-tabs{
+	border-color:#337AB7;
+	border-bottom: none;
+}
+#preciosManager .nav-tabs li .btn_tab{
+    height: 45px;
+}
+#preciosManager .nav-tabs li:last-child a{
+    border:1px solid #81A1BD;
+    background: #EAF4FF;
+    height:45px;
+    cursor:pointer;
+}
+#preciosManager .nav-tabs .active .btn_tab{
+	border-color:#337AB7;
+	border-bottom:none !important;
+	background:#337AB7;
+}
+#preciosManager .nav-tabs .btn_tab select{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    color:#277AB2;
+}
+#preciosManager .nav-tabs .active .btn_tab select{
+	color:white;
+	background: #225D8F;
+	-webkit-appearance: select;
+    -moz-appearance: select;
+}
+#preciosManager .nav-tabs li .btn_tab:hover{
+	border-color: #337AB7;
+}
+#preciosManager .dropdown-menu{
+	background:#337AB7;
+	width: 270px;
+	padding:5px;
+	border-radius:0 5px 5px 5px;
+	
+}
+#preciosManager .dropdown-menu li{
+    margin-top:2px;
+}
+#preciosManager th{
+    padding:5px;
+    background: #E1E7F0;
+    
+}
+#preciosManager td{
+    padding:3px;
+    
+}
+#preciosManager .addnac{
+	background: #2A6191
+}
+#preciosManager .dropdown-menu label{
+	width:100px;
+	display: block;
+	float:left;
+	font-weight: normal !important;
+	text-transform: capitalize;
+}
+#preciosManager .nacionalidades{
+	border:1px solid #337AB7;
+	display: inline-block;
+    width: 100%;
+}
+#preciosManager .contenedorNacs{
+	background: #F5F5F5;
+    /* max-width: 340px; */
+    /* min-width: 340px; */	
+    float:left;
+    margin:5px 0 5px 5px;
+}
+#preciosManager .contenedorNacs .inputsPrecios{
+	width: 100%;
+}
+#preciosManager .headerNac{
+	background:linear-gradient(#E1E7F0,#A9B6CB,#E1E7F0);
+}
+#preciosManager .headerNac div > div{
+	display:block;
+}
+#preciosManager .headerNac button.btn{
+	background: transparent;
+	border-color:transparent;
+	color:#E15151;
+}
+#preciosManager .headerNac button.btn:hover{
+	border-color:#E15151;
+}
+#preciosManager .inputsPrecios input{
+	
+}
+
+#preciosManager .inputsPrecios p{
+    margin:3px;
+    padding:0;
+}
+.contenedorNacs,.headerNac,.headerNac .btn-group,.tituloNac{
+padding:0;}
+

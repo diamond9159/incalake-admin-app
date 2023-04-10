@@ -1,0 +1,428 @@
+/* div numeracion */
+.div-numeracion{
+	background: #4cae4c;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.6em;
+}
+/*general */
+.div-derecha-aling{
+float: right !important;
+}
+.div-derecha{
+width: 88% !important;
+}
+@media only screen and (max-width: 768px) {
+.div-derecha{
+width: 100% !important;
+}
+}
+
+.div-izquierda{
+	width: 12% !important;;
+}
+.visible-txt-menu{
+	padding: 0 5px;
+	}
+/*div hombre breadcrumb*/
+.home-breadcrumb{
+    border: 1px solid #337ab7;
+    padding: 1px;
+    background: #337ab7;
+    padding: 0 10px 0 0;
+}
+
+.home-breadcrumb a{
+	color: #fff;
+}
+.home-breadcrumb::after{
+       background: #337ab7;
+    content: "";
+    height: 16px;
+    margin-top: 2px;
+    position: absolute;
+    width: 17px;
+    z-index: 0;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+
+
+ /**/
+.titulo-producto{
+   font-family: fantasy;
+       font-size: xx-large;
+       text-transform: capitalize;
+   /*text-transform: uppercase;*/
+}
+.headline {
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 2px solid #c8cacc;
+
+}
+.headline div {
+       font-size: 22px;
+    margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #1570a6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*panel icon*/
+.panel-icon {
+  float: right;
+  cursor: pointer;
+}
+.panel-heading{
+	cursor: pointer;
+}
+/* Menu padre*/
+nav.navbar.navbar-inverse.navbar-fixed-top{
+	box-shadow: 0px 1px 14px #444;
+    -moz-box-shadow: 0px 1px 14px #444;
+    -webkit-box-shadow: 0px 1px 14px #444;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+/* menu flotante*/
+#aside{
+	position: fixed;
+	height: 100%;
+	padding: 0;
+	box-shadow:  1px 0px 20px #444;
+    -moz-box-shadow:  1px 0px 20px #444;
+    -webkit-box-shadow: 1px 0px 20px #444;
+	
+}
+#aside .navbar{
+	border: none;
+}
+/*css menu flotanten inicio*/
+#menu-izquierda nav{
+	    padding: 10px 0;
+}
+.div-menu-mini-flotante{
+	    /* background: #444 !important; */
+	    /* box-shadow:  1px 0px 20px #444;
+	        -moz-box-shadow:  1px 0px 20px #444;
+	        -webkit-box-shadow: 1px 0px 20px #444; */
+}
+
+.div-menu-mini-flotante .navbar-nav > li > a {
+	    height: 100%;
+color: #fff !important;
+}
+.div-menu-mini-flotante .navbar-nav > li> a:hover,.div-menu-mini-flotante .navbar-nav > li.active , .div-menu-mini-flotante .navbar-nav li.dropdown.open a{
+
+/*background: #777777 !important;*/
+}
+.div-menu-mini-flotante nav.sidebar .navbar-nav > li:first-child,.div-menu-mini-flotante nav.sidebar .navbar-nav > li{
+border: none !important;
+height: 40px;
+    line-height: 40px;
+}
+
+.div-menu-mini-flotante .navbar .navbar-nav .open .dropdown-menu{
+	margin-left: 50px;
+	margin-top: -40px;
+background: #444 !important;
+position: absolute;
+padding: 0;
+}
+.div-menu-mini-flotante .navbar .navbar-nav .open .dropdown-menu>li>a{
+color: #d4d0d0;
+}
+.div-menu-mini-flotante .navbar .navbar-nav .open .dropdown-menu>li>a:hover{
+color: #fff;
+}
+
+/*mini fin*/
+
+.div-content{
+width: 95%;
+}
+.div-menu{
+width: 51px;
+}
+.navbar-nav > li > a{
+	padding: 15px 5px;
+}
+	/*Remove rounded coners*/
+
+	nav.sidebar.navbar {
+		border-radius: 0px;
+	}
+	nav.sidebar{
+		-webkit-transition: margin 200ms ease-out;
+	    -moz-transition: margin 200ms ease-out;
+	    -o-transition: margin 200ms ease-out;
+	    transition: margin 200ms ease-out;
+	}
+	/* .....NavBar: Icon only with coloring/layout.....*/
+
+	/*small/medium side display*/
+	@media (min-width: 768px) {
+
+		/*lets nav bar to be showed on mouseover*/
+		nav.sidebar:hover +{
+			/*margin-left: 200px;*/
+		}
+
+		/*Center Brand*/
+		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+			margin-left: 0px;
+		}
+		/*Center Brand*/
+		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+			text-align: center;
+			width: 100%;
+			/*margin-left: 0px;*/
+		}
+
+		/*Center Icons*/
+		nav.sidebar a{
+			padding-right: 13px;
+		}
+
+		/*adds border top to first nav box */
+		nav.sidebar .navbar-nav > li:first-child{
+			border-top: 1px #282828 solid;
+		}
+
+		/*adds border to bottom nav boxes*/
+		nav.sidebar .navbar-nav > li{
+			border-bottom: 1px #282828 solid;
+			text-align: left
+		}
+
+		/* Colors/style dropdown box*/
+		nav.sidebar .navbar-nav .open .dropdown-menu {
+			position: static;
+			float: none;
+			/*width: auto;*/
+			margin-top: 0;
+			background-color: transparent;
+			border: 0;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		/*allows nav box to use 100% width*/
+		nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+			padding: 0 0px 0 0px;
+		}
+
+		/*colors dropdown box text */
+		.navbar .navbar-nav .open .dropdown-menu>li>a {
+			color: #777;
+		}
+
+		/*gives sidebar width/height*/
+		nav.sidebar{
+			/*width: 100%;*/
+			height: 100%;
+			margin-bottom: 0px;
+		}
+
+		/*give sidebar 100% width;*/
+		nav.sidebar li {
+			width: 100%;
+		}
+
+		/* Move nav to full on mouse over*/
+		nav.sidebar:hover{
+			margin-left: 0px;
+		}
+	}
+nav .navbar-nav > .active > a{
+	font-weight: bold;
+	
+	/* .....NavBar: Fully showing nav bar..... */
+}
+#aside .navbar-nav > .active{
+	/*background: #e8e8e8;*/
+
+}
+
+.navbar-nav > .active{
+	/*background: #337ab7;*/
+	
+}
+.dropdown-menu > .active > a{
+	background: #000;
+}
+
+	
+.dropdown ul li a:hover,.dropdown ul li:hover{
+	background: rgb(19, 19, 19);
+	color: rgb(221, 221, 221) !important;
+}
+	
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #337ab7;
+		
+		background-color: transparent;
+	}
+
+
+/*css menu flotante fin1*/
+.div-menu-flotante{
+	border-width: 1px;
+	border-style: none none solid none;
+    border-color: #ddd;
+    line-height: 40px;
+    width: 100%;
+    /*border:none;*/
+}
+/* css simple tabla la lista */
+.div-tabla{
+	    border-style: none solid none solid;
+    border-width: 1px;
+    border-color: #eee;
+    /* min-height: 35px; */
+    line-height: 35px;
+    padding: 0;
+}
+.div-tabla>div{
+	border-style: none solid solid none;
+    border-width: 1px;
+    border-color: #eee;
+
+}
+.div-tabla>div:last-child {
+    border-style: none none solid none;
+    padding: 0;
+    /* position: absolute; */
+}
+/* css para divs de list.js*/
+.header-list{
+	    background: rgb(51, 122, 183);
+    font-weight: bold;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 0;
+    line-height: 30px;
+    color: #f5f5f5;
+	}
+.header-list>div{
+	padding: 0;
+}
+	.header-list>div>div{
+		border-style:  none solid none none;
+		border-width: 1px;
+		border-color: #ddd;
+	}
+	.header-list>div>div:last-child{
+		border-style: none;
+	}
+	.list>div{
+		border-style: none solid solid solid;
+		border-width: 1px;
+		border-color: #ddd;
+		padding: 0;
+		line-height: 35px;
+	}
+	.list>div>div{
+		min-height: 35px;
+		padding: 0;
+		height:100%;
+	}
+	.born>div,.name>div{
+		border-style: none solid none none;
+		border-width: 1px;
+		border-color: #ddd;
+
+	}
+	.born>div:last-child,.name>div:last-child {
+		border-style: none none none none;
+		padding: 0;
+		    /*position: absolute;*/
+	}
+
+/*DIV ALING VERTICAL FLEX*/
+.div-vertical{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* TABS */
+.tab-v1 .nav-tabs {
+    border: none;
+    background: none;
+   border-bottom: solid 2px rgba(21, 112, 166, 0.63);
+}
+.tab-v1 .tab-content{
+    padding: 5px 0;
+}
+.tab-v1 .nav-tabs > li > a {
+    border: none;
+        color: rgba(0, 0, 0, 0.74);
+}
+.tab-v1 .nav-tabs a {
+    font-size: 14px;
+    padding: 5px 15px;
+}
+.nav-tabs > li > a, .nav-pills > li > a, .nav-tabs.nav-justified > li > a {
+    border-radius: 0;
+}
+.tab-v1 .nav-tabs > .active > a, .tab-v1 .nav-tabs > .active > a:hover, .tab-v1 .nav-tabs > .active > a:focus {
+    color: #fff;
+    border: none;
+    background: #1570a6;
+}
+.div_cantidades{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+/* DIV BOX */
+.div-box{
+	background: #fff;border-style: solid;border-width: 1px;border-color: #ddd;padding: 10px;
+}
+
+/* CSS CALENDAR CUSTOM */
+div.fc-unthemed   {
+    box-shadow: 0px 3px 7px #444;
+    -moz-box-shadow: 0px 3px 7px #444
+    -webkit-box-shadow: 0px 3px 7px #444;
+}
+.fc-toolbar.fc-header-toolbar{
+	    background: #337ab7;
+    margin: 0;
+    color: #f5f5f5;
+    padding: 5px;
+    -moz-box-shadow: inset 0 0 30px #203e5a;
+    -webkit-box-shadow: inset 0 0 30px #203e5a;
+    box-shadow: inset 0 0 30px #203e5a;
+}
+thead.fc-head {
+    background: rgba(51, 122, 183, 0.36);
+
+}
+button.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right {
+    background: #ff0500;					
+    /* height: 30px; */
+    color: #ffffff;
+}
+.fc-today,.fc-today a {
+    color: #fff !important;
+    font-weight: bold;
+}
+.fc-unthemed .fc-today {
+    background: #7dafda !important;
+}
