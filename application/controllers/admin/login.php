@@ -35,6 +35,8 @@ class Login extends CI_Controller {
 				 $this->load->model('admin/loginm');
 				 // llamar metodo de buscar usuario
 			   $result = $this->loginm->buscar($this->input->post('username'), $password);
+
+			   
 				 
 				 // si existe usuario
 			   if($result)
